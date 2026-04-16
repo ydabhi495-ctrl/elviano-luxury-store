@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ELVIANO - Luxury Menswear</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <h2>ELVIANO</h2>
+    <div class="nav-actions">
+      <button type="button" onclick="goLogin()">Login</button>
+      <button type="button" onclick="goCart()">Cart <span id="cartCount">(0)</span></button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <video autoplay muted loop playsinline>
+      <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="hero-text">
+      <p class="eyebrow">Spring/Summer Collection</p>
+      <h1>ELVIANO</h1>
+      <p>Crafted for Gentlemen</p>
+      <button type="button" onclick="scrollToProducts()">Shop Now</button>
+    </div>
+  </section>
+
+  <section class="brands">
+    <h2>More Brands</h2>
+    <div class="brand-list">
+      <span>Allen Solly</span>
+      <span>Louis Philippe</span>
+      <span>Van Heusen</span>
+      <span>Peter England</span>
+      <span>Reebok</span>
+    </div>
+  </section>
+
+  <section id="products" class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1593032465171-8c3b8f2f7c61?auto=format&fit=crop&w=900&q=80" alt="Premium Linen Shirt">
+      <h3>Premium Linen Shirt</h3>
+      <p class="price">₹2999</p>
+
+      <label for="size1" class="size-label">Select Size</label>
+      <select id="size1" aria-label="Select shirt size">
+        <option>38</option>
+        <option>40</option>
+        <option>42</option>
+      </select>
+
+      <div class="card-actions">
+        <button type="button" onclick="viewProduct('Premium Linen Shirt')">View</button>
+        <button type="button" onclick="addToCart('Premium Linen Shirt','size1',2999)">Add</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Elviano Luxury</p>
+    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
