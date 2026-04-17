@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elviano — Crafted for Elegance</title>
+  <meta name="description" content="Elviano is a premium menswear house designing suits, jackets, and shirts with quiet precision.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<nav class="topbar">
+  <div class="topbar__mark">E / V</div>
+  <ul class="topbar__menu">
+    <li><a href="#collection">Collection</a></li>
+    <li><a href="#atelier">Atelier</a></li>
+    <li><a href="#journal">Journal</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="topbar__meta">
+    <span class="topbar__city">Milano · 14°</span>
+    <span class="topbar__cart">Bag (0)</span>
+  </div>
+</nav>
+
+<header>
+  <div class="header__eyebrow">
+    <span>Maison since MMXXVI</span>
+    <span>Chapter IV</span>
+  </div>
+  <h1>ELVIANO</h1>
+  <p>Crafted for Elegance</p>
+  <div class="header__rule">
+    <span class="header__rule-line"></span>
+    <span class="header__rule-label">A menswear house of quiet precision</span>
+    <span class="header__rule-line"></span>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero__stage">
+    <div class="hero__frame">
+      <svg class="hero__figure" viewBox="0 0 400 560" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+          <linearGradient id="cloth" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="#2c2622"/>
+            <stop offset="100%" stop-color="#0f0d0b"/>
+          </linearGradient>
+          <linearGradient id="skin" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0%" stop-color="#c8a884"/>
+            <stop offset="100%" stop-color="#8f7456"/>
+          </linearGradient>
+        </defs>
+        <rect x="0" y="0" width="400" height="560" fill="#e6ddcc"/>
+        <circle cx="200" cy="140" r="62" fill="url(#skin)"/>
+        <path d="M108 230 Q200 200 292 230 L316 540 L84 540 Z" fill="url(#cloth)"/>
+        <path d="M200 232 L200 540" stroke="#f3eee4" stroke-width="1.5" stroke-dasharray="2 6" opacity="0.35"/>
+        <path d="M170 260 L182 520 M230 260 L218 520" stroke="#f3eee4" stroke-width="0.8" opacity="0.25"/>
+        <circle cx="200" cy="320" r="2.5" fill="#b08a5a"/>
+        <circle cx="200" cy="360" r="2.5" fill="#b08a5a"/>
+        <circle cx="200" cy="400" r="2.5" fill="#b08a5a"/>
+      </svg>
+      <span class="hero__tag hero__tag--tl">No. 042</span>
+      <span class="hero__tag hero__tag--br">Peak-lapel · Super 150s</span>
+    </div>
+  </div>
+
+  <div class="hero__body">
+    <span class="hero__season">S/S · Twenty Twenty-Six</span>
+    <h2>Luxury Collection<br><em>2026</em></h2>
+    <p class="hero__lede">
+      Seventeen silhouettes, hand-finished in our Mumbai atelier. Fabrics drawn from
+      Vitale Barberis Canonico, buttons carved from Indian buffalo horn, linings
+      woven in Bangalore silk.
+    </p>
+    <div class="hero__actions">
+      <button onclick="shopNow()" class="btn btn--primary">
+        <span>Shop Now</span>
+        <span class="btn__arrow" aria-hidden="true">→</span>
+      </button>
+      <a href="#atelier" class="btn btn--ghost">Visit the Atelier</a>
+    </div>
+    <dl class="hero__stats">
+      <div><dt>Pieces</dt><dd>17</dd></div>
+      <div><dt>Tailors</dt><dd>6</dd></div>
+      <div><dt>Hours per suit</dt><dd>42.5</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="products" id="collection">
+  <div class="products__heading">
+    <span class="products__index">I.</span>
+    <h2>Featured Products</h2>
+    <p class="products__sub">Three cornerstones of the season. Made to measure available on request.</p>
+  </div>
+
+  <div class="products__grid">
+    <article class="card card--suit">
+      <div class="card__media">
+        <svg viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="200" height="260" fill="#1e1a17"/>
+          <path d="M60 40 L140 40 L170 90 L150 240 L50 240 L30 90 Z" fill="#3a2f27"/>
+          <path d="M100 40 L85 120 L100 150 L115 120 Z" fill="#f3eee4"/>
+          <path d="M100 40 L100 240" stroke="#6b5d4f" stroke-width="0.5"/>
+          <circle cx="100" cy="140" r="1.8" fill="#a88960"/>
+          <circle cx="100" cy="170" r="1.8" fill="#a88960"/>
+          <circle cx="100" cy="200" r="1.8" fill="#a88960"/>
+        </svg>
+      </div>
+      <div class="card__body">
+        <span class="card__tag">No. 01 · Wool</span>
+        <h3>Premium Suit</h3>
+        <p class="card__desc">Double-breasted, peak lapel. Cut from charcoal Super 150s.</p>
+        <div class="card__footer">
+          <p class="card__price">₹4,999</p>
+          <button class="card__cta" aria-label="Add Premium Suit to bag">+ Bag</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="card card--jacket">
+      <div class="card__media">
+        <svg viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="200" height="260" fill="#8b6f47"/>
+          <path d="M55 50 L145 50 L175 95 L160 230 L40 230 L25 95 Z" fill="#6e5636"/>
+          <path d="M100 50 L80 130 L100 155 L120 130 Z" fill="#f3eee4"/>
+          <path d="M40 230 L160 230" stroke="#1e1a17" stroke-width="1"/>
+          <circle cx="100" cy="155" r="2" fill="#1e1a17"/>
+          <circle cx="100" cy="185" r="2" fill="#1e1a17"/>
+        </svg>
+      </div>
+      <div class="card__body">
+        <span class="card__tag">No. 02 · Cashmere</span>
+        <h3>Designer Jacket</h3>
+        <p class="card__desc">Single-breasted with a softly structured shoulder.</p>
+        <div class="card__footer">
+          <p class="card__price">₹2,999</p>
+          <button class="card__cta" aria-label="Add Designer Jacket to bag">+ Bag</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="card card--shirt">
+      <div class="card__media">
+        <svg viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="200" height="260" fill="#e6ddcc"/>
+          <path d="M60 45 L140 45 L170 80 L150 235 L50 235 L30 80 Z" fill="#f3eee4"/>
+          <path d="M100 45 L85 75 L100 92 L115 75 Z" fill="#d6ccb7"/>
+          <path d="M100 92 L100 235" stroke="#c9bea5" stroke-width="0.6"/>
+          <circle cx="100" cy="115" r="1.6" fill="#6b5d4f"/>
+          <circle cx="100" cy="145" r="1.6" fill="#6b5d4f"/>
+          <circle cx="100" cy="175" r="1.6" fill="#6b5d4f"/>
+          <circle cx="100" cy="205" r="1.6" fill="#6b5d4f"/>
+        </svg>
+      </div>
+      <div class="card__body">
+        <span class="card__tag">No. 03 · Cotton poplin</span>
+        <h3>Luxury Shirt</h3>
+        <p class="card__desc">Mother-of-pearl buttons on a two-ply ivory weave.</p>
+        <div class="card__footer">
+          <p class="card__price">₹1,999</p>
+          <button class="card__cta" aria-label="Add Luxury Shirt to bag">+ Bag</button>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="about" id="atelier">
+  <div class="about__label">II. The Maison</div>
+  <div class="about__copy">
+    <h2>About <em>Elviano</em></h2>
+    <p>Elviano is a premium fashion brand designed for elegance, confidence, and timeless style.</p>
+    <p class="about__fine">
+      Founded by Idris Kapadia in a converted textile mill, Elviano draws on four generations
+      of family tailoring. Each garment leaves the atelier signed in indigo thread by the
+      cutter who shaped it — a small, permanent mark of accountability.
+    </p>
+  </div>
+  <aside class="about__pull">
+    <blockquote>
+      &ldquo;A good suit is architecture<br>you can walk inside.&rdquo;
+    </blockquote>
+    <cite>— Idris Kapadia, Founder</cite>
+  </aside>
+</section>
+
+<footer id="contact">
+  <div class="footer__mark">ELVIANO</div>
+  <div class="footer__cols">
+    <div>
+      <h4>Atelier</h4>
+      <p>Lower Parel, Mumbai<br>By appointment</p>
+    </div>
+    <div>
+      <h4>Correspondence</h4>
+      <p>studio@elviano.in<br>+91 22 4037 8211</p>
+    </div>
+    <div>
+      <h4>Letters</h4>
+      <p>A quarterly dispatch on cloth, cut, and craft.</p>
+      <form class="footer__form" onsubmit="subscribe(event)">
+        <input type="email" required placeholder="your address" aria-label="Email address">
+        <button type="submit" aria-label="Subscribe">→</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer__base">
+    <p>© 2026 Elviano. All rights reserved.</p>
+    <p>Crafted in Mumbai. Worn worldwide.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
